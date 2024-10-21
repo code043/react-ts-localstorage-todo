@@ -89,7 +89,7 @@ const App: React.FC = () => {
   }, [list]);
 
   return (
-    <section className="section-center">
+    <section className="bg-blue-200 text-black">
       <form className="grocery-form" onSubmit={handleSubmit}>
         {alert.show && <Alert {...alert} removeAlert={showAlert} list={list} />}
 
