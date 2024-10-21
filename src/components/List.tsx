@@ -13,7 +13,7 @@ interface ListProps {
 
 const List: React.FC<ListProps> = ({ items, removeItem, editItem }) => {
   return (
-    <div className="grocery-list">
+    <div className="bg-blue-200">
       {items.map((item) => {
         const { id, title } = item;
         return (
